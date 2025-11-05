@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Validar dados
-        run: python src/validate_data.python
+        run: python src/validate_data.py
 
       - name: Executar testes
         run: pytest
